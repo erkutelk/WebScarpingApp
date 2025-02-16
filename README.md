@@ -1,5 +1,22 @@
-Merhaba bugün sizlere yaptığım projeyi anlatacağım. Yaptığım bu proje ile iki farklı kitap alışveriş sitesinden kitap adi,fiyatı,yayıncı ve yazarı bilgilerini çekmekteyim.
-Çektiğim bu bilgileri veritabanında kaydediyorum. Veritabanına kaydetmemin amacı bu bilgileri farklı yerlerde kullanabilme.
-Veritabanından çektiğim bu verileri kullanıcıların daha iyi kullanıma sunulması için bunları Python  'da bulunan PyQt5 kütüphanesi ile görsel bir projeye çevirdim.
-yaptığım uygulama ile veritabanından verileri silme, güncelleme ve ekleme işlemleri yapabilir.
-kullandığım veritabanı MongoDB'dir.
+# Kitap Bilgi Toplama ve Yönetim Uygulaması
+
+Bu proje, iki farklı kitap alışveriş sitesinden kitap adı, fiyatı, yayıncı ve yazar bilgilerini çekerek MongoDB veritabanına kaydeden bir Python uygulamasıdır. Toplanan veriler, PyQt5 kullanılarak geliştirilen bir masaüstü arayüzü ile kullanıcı dostu bir şekilde görüntülenebilir ve yönetilebilir.
+
+## Özellikler
+- İki farklı kitap alışveriş sitesinden veri çekme
+- Kitap adı, fiyatı, yayıncı ve yazar bilgilerini toplama
+- Verileri MongoDB veritabanına kaydetme
+- PyQt5 ile görsel arayüz oluşturma
+- Veritabanındaki verileri listeleme
+- Verileri silme, güncelleme ve ekleme işlemleri
+
+## Kullanılan Teknolojiler
+- Python - Temel dil
+- PyQt5 - Kullanıcı arayüzü oluşturma
+- MongoDB - Veritabanı yönetimi
+- Requests - Web'den veri çekme
+- BeautifulSoup - HTML verilerini ayrıştırma
+
+## Kullanım
+- Uygulamayı başlattıktan sonra verileri otomatik olarak çekebilir ve listeleyebilirsiniz.
+- Listeleme ekranından kitapları güncelleyebilir, silebilir veya yeni kitap ekleyebilirsiniz.
